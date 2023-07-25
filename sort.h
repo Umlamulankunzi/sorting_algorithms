@@ -31,7 +31,8 @@ ssize_t lomuto_partition(int *array, ssize_t first, ssize_t last, size_t size);
 void swap_ints(int *array, ssize_t index1, ssize_t index2);
 void swap_elements(int *array, int index1, int index2);
 void shell_sort(int *array, size_t size);
-
+void swap_nodes(listint_t **head, listint_t *node1, listint_t *node2);
+void cocktail_sort_list(listint_t **list);
 
 
 #endif  /* SORT_H */
