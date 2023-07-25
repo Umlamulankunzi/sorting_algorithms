@@ -33,6 +33,6 @@ void swap_elements(int *array, int index1, int index2);
 void shell_sort(int *array, size_t size);
 void swap_nodes(listint_t **head, listint_t *node1, listint_t *node2);
 void cocktail_sort_list(listint_t **list);
-
+void counting_sort(int *array, size_t size);
 
 #endif  /* SORT_H */
